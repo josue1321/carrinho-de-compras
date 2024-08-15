@@ -183,11 +183,11 @@ const MarketCarPages = () => {
         const header = document.querySelector('.header');
         const container = document.querySelector('.container')
         if (window.scrollY > 50) { // Ajuste o valor conforme necessário
-            header.classList.add('expanded');
-            container.classList.add('teste')
+            header?.classList.add('expanded');
+            container?.classList.add('teste')
         } else {
-            header.classList.remove('expanded');
-            container.classList.remove('teste')
+            header?.classList.remove('expanded');
+            container?.classList.remove('teste')
         }
     });
 
