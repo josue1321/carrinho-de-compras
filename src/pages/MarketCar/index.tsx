@@ -189,11 +189,6 @@ const MarketCarPages = () => {
     // Botões de paginação
     const totalPages = Math.ceil(produtos.length / productsPerPage)
 
-    // JavaScript para adicionar/remover a classe 'expanded' ao cabeçalho
-
-
-
-
     return (
         <div className="container">
             {/* Cabeçalho */}
